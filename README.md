@@ -1,65 +1,88 @@
-# tinylento documentation
-version 0.1 — core language specification  
-author: [travtherobber](https://github.com/travtherobber)
+# tiny lento v0.1
+
+tiny lento is a minimalist, speakable, and rigorously deterministic programming language.  
+version 0.1 represents the frozen core specification for the language architecture, built on principles of maximum clarity and predictable flow.
 
 ---
 
-## what is tinylento
+## philosophy: speakable code, zero precedence
 
-tinylento is a small, speakable programming language built around rhythm and symmetry.  
-every construct has a mirror, every block has a clear end, and every operation reads the way it’s meant to sound.
-
-two-letter ops. four-letter loops. deterministic left-to-right execution.  
-the language is meant to be learned by ear as much as by sight.
+tiny lento is engineered for audibility.  
+the design rejects symbolic noise, replacing it with word-ops such as `ad` for add and `xs` for multiply.  
+the code should sound like a set of direct instructions when read aloud.
 
 ---
 
-## about this repository
+## key tenets
 
-this repository holds the official reference for tinylento.  
-it’s the frozen specification for version 0.1 — the python-hosted interpreter — and the baseline for all future builds.
+### deterministic evaluation
+evaluation is strictly left-to-right, with no operator precedence.  
+any operational grouping must be achieved explicitly by calling functions.
 
-if you’re building tools, testing runtime behavior, or just learning how tinylento reads, this is where you start.
+### symmetry (nt-closure law)
+every block keyword has a mirrored closing keyword, enforcing clear scope boundaries.  
+this is known as the **nt-closure law**, for example:
 
----
-
-## table of contents
-
-| section | description |
-|----------|-------------|
-| [overview](docs/00_overview.md) | design goals and language intent |
-| [syntax](docs/01_syntax.md) | lexing, operators, nt-closure law |
-| [control flow](docs/02_control_flow.md) | conditionals and loops |
-| [functions](docs/03_functions.md) | definitions, defaults, variadics |
-| [standard library](docs/04_stdlib.md) | core io, math, and string routines |
-| [grammar](docs/05_grammar.md) | formal ebnf definition |
-| [examples](docs/06_examples.md) | canonical snippets |
-| [roadmap](docs/07_roadmap.md) | planned language milestones |
-| [cheatsheet](docs/08_cheatsheet.md) | quick reference and operator map |
+```tl
+fn ... ntfn
+whlp ... ntwhlp
+if ... ntif
+```
 
 ---
 
-## usage
+## core language features (v0.1)
 
-browse the markdown files directly on github.  
-each page can stand alone or be read in sequence — from the design goals down to the grammar and examples.  
-examples can be copied straight into the tinylento interpreter.
+the v0.1 specification defines the lexical, control flow, and functional primitives of tiny lento.
 
-future versions will add host/runtime-specific references, changelogs, and version comparisons.
+### lexical structure
+- space-delimited tokens  
+- strings wrapped in double periods `..text..`  
+- booleans: `tr` and `nttr`
+
+### assignment and equality
+the word `et` (equal) serves a dual purpose:  
+- **assignment:** when used in statements — `x et 5`  
+- **equality:** when used inside expressions — `a et b`
+
+### control blocks
+structured keywords define flow and scope:
+
+```tl
+if / iffy  — conditional chains
+whlp       — while
+unlp       — until
+dolp       — do-while
+folp       — for (range or collection)
+```
+
+`folp` handles inclusive ranges `start to end [by step]` or iteration over collections.
+
+### functions
+function definitions use `fn ... ntfn`.  
+they support positional arguments, defaults via `et`, and variadic capture using `nm et restname`.
+
+### flow control
+built-in directives enable controlled reversal of program flow:  
+- `revfile` — reverse token parsing for the entire file  
+- `retro` — reverse ast execution  
+
+these allow intentional, predictable manipulation of execution order.
 
 ---
 
-## license
+## documentation structure
 
-mit license © [travtherobber](https://github.com/travtherobber)
+this repository contains the definitive technical documentation for the tiny lento language.
+
+| document | focus |
+|-----------|--------|
+| [00_overview.md](docs/00_overview.md) | high-level philosophy and architectural goals |
+| [01_syntax.md](docs/01_syntax.md) | lexing rules and the complete list of reserved words |
+| [05_grammar.md](docs/05_grammar.md) | readable ebnf-style grammar definition |
+| [08_cheatsheet.md](docs/08_cheatsheet.md) | quick command reference for syntax and ops |
 
 ---
 
-## contributing
-
-if you spot inconsistencies or want to suggest language changes, open an issue or pull request here.  
-use the prefix `proposal:` when suggesting new syntax or keywords so they can be tracked properly.
-
----
-
-tinylento isn’t just written. it’s spoken.
+tiny lento is minimal by design.  
+its clarity comes not from what it adds, but from what it refuses to need.
