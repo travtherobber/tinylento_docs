@@ -91,3 +91,10 @@ ntfn
 if execution reaches `ntfn` without encountering a `bk`, the function implicitly returns the boolean value `nttr` (false).
 
 the design is optimized for flat, declarative execution, and complex operations must be intentionally structured via function decomposition.
+
+---
+
+© 2025 Travis Halsey (aka "travtherobber")  
+This document is part of the **TinyLento Documentation** project.  
+Licensed under the **Creative Commons Attribution 4.0 International (CC-BY-4.0)** license.  
+https://creativecommons.org/licenses/by/4.0/

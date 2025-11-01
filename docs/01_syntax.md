@@ -86,3 +86,10 @@ the interpreter resolves them to word-ops during parsing.
 | `/`    | `by`    | `==`   | `et`    |
 | `%`    | `pc`    | `=`    | `et`    |
 | `>`    | `gt`    | `<`    | `lt`    |
+
+---
+
+© 2025 Travis Halsey (aka "travtherobber")  
+This document is part of the **TinyLento Documentation** project.  
+Licensed under the **Creative Commons Attribution 4.0 International (CC-BY-4.0)** license.  
+https://creativecommons.org/licenses/by/4.0/

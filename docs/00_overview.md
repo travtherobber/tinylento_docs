@@ -37,3 +37,10 @@ the focus is shifting entirely toward a production-ready tiny lento core, achiev
 - **v0.2 (planned):** the critical next step will introduce native container types (lists/dicts), robust built-in string operations, a proper module/import system, and exceptions. this stage is the necessary groundwork for a self-sufficient core.
 
 the language documentation is definitive for the current specification.
+
+---
+
+© 2025 Travis Halsey (aka "travtherobber")  
+This document is part of the **TinyLento Documentation** project.  
+Licensed under the **Creative Commons Attribution 4.0 International (CC-BY-4.0)** license.  
+https://creativecommons.org/licenses/by/4.0/

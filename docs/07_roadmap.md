@@ -36,3 +36,10 @@ following the successful implementation of v0.2, the focus will shift towards pe
 the goal remains a small, fast, and philosophically pure runtime.  
 
 the commitment to the nt-closure law and zero operator precedence will remain absolute throughout all future versions.
+
+---
+
+© 2025 Travis Halsey (aka "travtherobber")  
+This document is part of the **TinyLento Documentation** project.  
+Licensed under the **Creative Commons Attribution 4.0 International (CC-BY-4.0)** license.  
+https://creativecommons.org/licenses/by/4.0/

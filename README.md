@@ -86,3 +86,10 @@ this repository contains the definitive technical documentation for the tiny len
 
 tiny lento is minimal by design.  
 its clarity comes not from what it adds, but from what it refuses to need.
+
+---
+
+© 2025 Travis Halsey (aka "travtherobber")  
+This document is part of the **TinyLento Documentation** project.  
+Licensed under the **Creative Commons Attribution 4.0 International (CC-BY-4.0)** license.  
+https://creativecommons.org/licenses/by/4.0/

@@ -121,3 +121,10 @@ these keywords modify how the language engine parses or executes the code. they 
 - **revfile:** placed at the top of a file, this directive causes the parser to read tokens right-to-left. execution proceeds normally on the resulting reversed ast.  
 - **retro:** this directive causes the compiled abstract syntax tree (ast) to be executed in reverse order (bottom-to-top). the scope stack is still respected.  
 - **ltr:** used within a block governed by `revfile` or `retro`, this resets the flow back to the default left-to-right execution mode for the current block.  
+
+---
+
+© 2025 Travis Halsey (aka "travtherobber")  
+This document is part of the **TinyLento Documentation** project.  
+Licensed under the **Creative Commons Attribution 4.0 International (CC-BY-4.0)** license.  
+https://creativecommons.org/licenses/by/4.0/

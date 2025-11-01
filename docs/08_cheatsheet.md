@@ -80,3 +80,10 @@ all blocks must be closed with their mirrored `nt` keyword.
 | continue | `ct` | skips the rest of the current loop iteration. |
 | reverse parsing | `revfile` | sets token reading to right-to-left for the entire file. |
 | reverse execution | `retro` | sets ast execution order to bottom-to-top. |
+
+---
+
+© 2025 Travis Halsey (aka "travtherobber")  
+This document is part of the **TinyLento Documentation** project.  
+Licensed under the **Creative Commons Attribution 4.0 International (CC-BY-4.0)** license.  
+https://creativecommons.org/licenses/by/4.0/

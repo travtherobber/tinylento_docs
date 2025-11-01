@@ -72,3 +72,10 @@ sh result
 ```
 
 the stdlib ensures that even complex expressions can be written clearly and deterministically using function composition.
+
+---
+
+© 2025 Travis Halsey (aka "travtherobber")  
+This document is part of the **TinyLento Documentation** project.  
+Licensed under the **Creative Commons Attribution 4.0 International (CC-BY-4.0)** license.  
+https://creativecommons.org/licenses/by/4.0/

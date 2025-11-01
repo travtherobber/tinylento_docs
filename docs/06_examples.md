@@ -110,3 +110,10 @@ sh ..bonus b:.. bonus_b
 ---
 
 these snippets cover the core operational requirements of the v0.1 specification.
+
+---
+
+© 2025 Travis Halsey (aka "travtherobber")  
+This document is part of the **TinyLento Documentation** project.  
+Licensed under the **Creative Commons Attribution 4.0 International (CC-BY-4.0)** license.  
+https://creativecommons.org/licenses/by/4.0/
