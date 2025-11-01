@@ -1,5 +1,8 @@
 # tiny lento v0.1
 
+this is a temporary repository for use while i complete work on the interpreter and will be
+moved to the main repo upon completion.
+
 tiny lento is a minimalist, speakable, and rigorously deterministic programming language.  
 version 0.1 represents the frozen core specification for the language architecture, built on principles of maximum clarity and predictable flow.
 
